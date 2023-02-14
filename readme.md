@@ -2,7 +2,7 @@
 
 <h1> <img width="900px" src="./public/landing-page-illustration.jpg" /> </h1>
 
-## <a href="https://google.com">See the Site</a>
+## <a href="https://rafaelpires2.github.io/illustrations-landing-page/">See the Site</a>
 
 <br>
 
