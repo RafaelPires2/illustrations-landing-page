@@ -142,40 +142,42 @@ a, li, ul, button{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 51.25rem;
     height: 46.813rem;
     gap: 1.5rem;
 }
 .card{
     height: 38.8125rem;
     min-width: 11.4375rem;
+    max-width: 24.25rem;
+    transition: .5s;
 }
 .card-one{
     background-color: var(--primary-color);
-    position: relative;
+    background-image: url("./assets/icon1.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.card-one img{
-    position: absolute;
-    top: 48px;
-    left: 5px;
-}
+
 
 .card-two{
     background-color: var(--secondary-color);
-    position: relative;
-}
-.card-two img{
-    position: absolute;
-    top: 35px;
-    left: 5px;
+    background-image: url("./assets/icon2.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .card-three{
-    background-color: var(--default-color);
-    position: relative;
+    background-color: #8FC7FF;
+    background-image: url("./assets/icon3.svg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 24.25rem;
 }
-.card-three img{
-    position: absolute;
-    top: 110px;
-}
+
