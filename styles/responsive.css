@@ -49,6 +49,7 @@
         width: auto;
         align-items: center;
         height: 50%;
+        margin-block: 30px 20px;
     }
     .box-right{
         width: 100%;
