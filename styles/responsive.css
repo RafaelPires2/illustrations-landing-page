@@ -74,34 +74,40 @@
         height: 55px;
     }
     .container-main{
-        height:  calc(100vh - 55px);
+        height: 1000px;
+
+    }
+    .wrapper{
+        height: 1000px;
     }
 }
 
 @media only screen and (max-width: 375px)  {
+    .box-left{
+        height: 400px;
+        margin-block: 120px;
+    }
+
+    .box-right{
+        height: 400px;
+        
+    }
     .title{
-        font-size: 2.1rem;
-        margin: 10px;
+        font-size: 2.5rem;  
     }
     .paragraph{
-        font-size: 1.1rem;
-        margin: 10px;
-    }
-    .button{
-        width: 11.25rem;
-        height: 2.5rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
+  
     }
 }
 
 @media only screen and (max-width: 320px)  {
     .title{
         font-size: 2rem;
-        margin: 0;
+        
     }
     .paragraph{
-        font-size: 1.1rem;
-        margin-block: 5px;
+        font-size: 1.2rem;
     }
 
 }
