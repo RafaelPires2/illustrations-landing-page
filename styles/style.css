@@ -39,6 +39,8 @@ a, li, ul, button{
 
     width: 85.688rem;
     height: calc(100vh - 4.688rem);
+    /* adc padding */
+    padding-inline: 20px;
 }
 
 /* INICIO HEADER */
@@ -48,6 +50,8 @@ a, li, ul, button{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* adc padding */
+    padding-inline: 20px;
 }
 
 .container-header{
@@ -99,8 +103,9 @@ a, li, ul, button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 46.813rem;
-    width: 28.75rem;
+    /* altura e largura para % */
+    height: 80%;
+    width: 40%;
     margin-right: 5.625rem;
 }
 
@@ -142,14 +147,19 @@ a, li, ul, button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 51.25rem;
-    height: 46.813rem;
+    /* altura e largura para % */
+    width: 60%;
+    height: 80%;
     gap: 1.5rem;
 }
 .card{
-    height: 38.8125rem;
+    /* altura e largura para % */
+
+    height: 100%;
+    width: 25%;
+    /* height: 38.8125rem;
     min-width: 11.4375rem;
-    max-width: 24.25rem;
+    max-width: 24.25rem; */
     transition: .5s;
 }
 .card-one{
@@ -178,6 +188,6 @@ a, li, ul, button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 24.25rem;
+    /* porcentagem */
+    width: 50%;
 }
-
